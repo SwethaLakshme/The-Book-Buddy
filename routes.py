@@ -12,3 +12,7 @@ def cbsetextbook():
 @app.route('/stateboardtextbook')
 def stateboardtextbook():
     return render_template('stateboardtextbook.html')
+
+@app.route('/eighthcbse')
+def eighthcbse():
+    return render_template('8thcbse.html')
