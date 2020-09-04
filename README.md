@@ -9,7 +9,7 @@ A site where you can find the study materials for standard 8 - 12.
 3. IBM Watson Assistant
 
 
-## Team - Ethereal Codehers
+## Team - Ethereal CodeHers
 Dharshini T 
 
 Harini M 
