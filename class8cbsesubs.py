@@ -11,7 +11,7 @@ def class8cbse_science():
 
 @app.route('/class8cbse_resource_and_development')
 def class8cbse_resource_and_development():
-    return render_template('cbse/8th/resource_and_development.html')
+    return render_template('cbse/8th/resourceanddevelopment.html')
 
 @app.route('/class8cbse_maths')
 def class8cbse_maths():
@@ -23,8 +23,8 @@ def class8cbse_history():
 
 @app.route('/class8cbse_english_it_so_happened')
 def class8cbse_english_it_so_happened():
-    return render_template('cbse/8th/english-it-so-happened.html')
+    return render_template('cbse/8th/englishitsohappened.html')
 
 @app.route('/class8cbse_english_honey_dew')
 def class8cbse_english_honey_dew():
-    return render_template('cbse/8th/english-honey-dew.html')
+    return render_template('cbse/8th/englishhoneydew.html')
