@@ -6,6 +6,10 @@
     margin-left: 38px;
   
   }
+
+  .column a {
+    text-decoration: none;
+  }
   
   
   /* Style the counter cards */
