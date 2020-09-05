@@ -36,3 +36,4 @@ def class9cbse_maths():
 @app.route('/class9cbse_science')
 def class9cbse_science():
     return render_template('cbse/9th/science.html')
+
