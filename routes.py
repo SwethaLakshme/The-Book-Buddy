@@ -13,6 +13,7 @@ def cbsetextbook():
 def stateboardtextbook():
     return render_template('stateboardtextbook.html')
 
+
 @app.route('/eighthcbse')
 def eighthcbse():
-    return render_template('8thcbse.html')
+    return render_template('cbse/8th/8thcbse.html')

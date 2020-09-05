@@ -8,6 +8,8 @@
     <title>The Book Buddy</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index-contents.css') }}">
   </head>
 
   <body>
@@ -47,7 +49,7 @@
     <div class="pimg2" style = "background-image: url('static/img/bg3.jpeg'); min-height: 80%">
       <div class="ptext2">
       <span class="border trans">Choose Your Syllabus</span>
-      <br><br><br><br><br><br>
+      <br><br><br><br><br>
       <button class="button"><a href="{{ url_for('cbsetextbook') }}" style="color: white; text-decoration: none">CBSE</a></button>
       <button class="button"><a href="{{ url_for('stateboardtextbook') }}" style="color: white; text-decoration: none">TN StateBoard</a></button>
       </div>
@@ -60,60 +62,6 @@
       Lorem ipsum dolor sit amet, ius ne impetus detraxit antiopam, mea scripta legendos inciderint ad. An tamquam interesset cum. Mei id choro exerci, an sea quot accusata definitionem. Vim ex quot nihil legimus, eos cu agam praesent, an atqui dolor apeirian sea. Eos an ubique reprimique deterruisset, quo at hinc semper deleniti. Id debet homero admodum eum.
       </p>
     </section>
-
-
-    <style>
-      /* Index-contents */
-      .ptext1{
-        position: absolute;
-        top: 45%;
-        width: 100%;
-        font-size: 60px;
-        color: black;
-        letter-spacing: 8px;
-        text-transform: uppercase;
-        border-left: thick solid #ff0000;
-        padding-left: 15px;
-        height: 70px;
-      }
-
-      .ptext2{
-        position: absolute;
-        top: 20%;
-        width: 100%;
-        text-align: center;
-        font-size: 27px;
-        color: black;
-        letter-spacing: 8px;
-        text-transform: uppercase;
-      }
-
-      .ptext2 .border.trans{
-        background-color: #fff;
-        color: black;
-        padding: 20px;
-        font-weight: 500;
-      }
-
-      /* /////////////// BUTTON //////////////// */
-      .button {
-        background-color: red; 
-        border: none;
-        color: white;
-        padding: 70px 60px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 32px;
-        font-weight: 700;
-        margin: 4px 100px;
-        cursor: pointer;
-        -webkit-transition-duration: 0.4s; /* Safari */
-        transition-duration: 0.4s;
-        width: 400px;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-      }
-    </style>
 
     <script type="text/javascript" src="{{ url_for('static', filename='js/chatbot.js') }}"></script>
 

@@ -18,6 +18,7 @@ body {
     padding: 0;
     font-size: 16px;
     line-height: 1.5;
+    
 }
 
 ul, li, .logo {
@@ -26,6 +27,7 @@ ul, li, .logo {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .inner {
