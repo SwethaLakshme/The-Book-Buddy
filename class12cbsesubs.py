@@ -5,13 +5,13 @@ from flask import Flask, render_template, url_for
 def class12cbse_biology():
     return render_template('cbse/12th/biology.html')
 
-@app.route('/class12cbse_accounts')
-def class12cbse_accounts():
-    return render_template('cbse/12th/accounts.html')
+@app.route('/class12cbse_accountancy')
+def class12cbse_accountancy():
+    return render_template('cbse/12th/accountancy.html')
 
-@app.route('/class12cbse_business_studies')
-def class12cbse_business_studies():
-    return render_template('cbse/12th/business_studies.html')
+@app.route('/class12cbse_businessstudies')
+def class12cbse_businessstudies():
+    return render_template('cbse/12th/businessstudies.html')
 
 @app.route('/class12cbse_chemistry')
 def class12cbse_chemistry():
