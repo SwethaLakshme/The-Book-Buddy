@@ -21,10 +21,10 @@ def class8cbse_maths():
 def class8cbse_history():
     return render_template('cbse/8th/history.html')
 
-@app.route('/class8cbse_english-it-so-happened')
-def class8cbse_english-it-so-happened():
+@app.route('/class8cbse_english_it_so_happened')
+def class8cbse_english_it_so_happened():
     return render_template('cbse/8th/english-it-so-happened.html')
 
-@app.route('/class8cbse_english-honey-dew')
-def class8cbse_english-honey-dew():
+@app.route('/class8cbse_english_honey_dew')
+def class8cbse_english_honey_dew():
     return render_template('cbse/8th/english-honey-dew.html')
