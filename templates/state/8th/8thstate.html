@@ -36,11 +36,51 @@
     <div id="bannertext">8th STATEBOARD SUBJECTS</div>
 
     <div class="column">
-      <a href="{{ url_for('#') }}">
+      <a href="{{ url_for('class8state_english') }}" style="text-decoration: none;">
         <div class="card">
           <div class="border"></div>
-          <img src="static/img/image.jpg" />
-        <h1>Subject Name</h1>
+          <img src="static/img/state/8th/english.jpg" />
+        <h1>English</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class8state_maths') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/8th/maths.jpg" />
+        <h1>Mathematics</h1>
+        </div>
+      </a>
+    </div>
+    
+    <div class="column">
+      <a href="{{ url_for('class8state_science') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/8th/science.jpg" />
+        <h1>Science</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class8state_social') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/8th/social.jpg" />
+        <h1>Social Science</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class8state_tamil') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/8th/tamil.jpg" />
+        <h1>Tamil</h1>
         </div>
       </a>
     </div>
@@ -49,4 +89,5 @@
     <script type="text/javascript" src="{{ url_for('static', filename='js/backtotopbutton.js') }}"></script>
 
     </body>
+
     </html>

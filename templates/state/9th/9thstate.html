@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-9">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Book Buddy</title>
     <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
@@ -36,11 +36,51 @@
     <div id="bannertext">9th STATEBOARD SUBJECTS</div>
 
     <div class="column">
-      <a href="{{ url_for('#') }}">
+      <a href="{{ url_for('class9state_english') }}" style="text-decoration: none;">
         <div class="card">
           <div class="border"></div>
-          <img src="static/img/image.jpg" />
-        <h1>Subject Name</h1>
+          <img src="static/img/state/9th/english.jpg" />
+        <h1>English</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class9state_maths') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/9th/maths.jpg" />
+        <h1>Mathematics</h1>
+        </div>
+      </a>
+    </div>
+    
+    <div class="column">
+      <a href="{{ url_for('class9state_science') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/9th/science.jpg" />
+        <h1>Science</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class9state_social') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/9th/social.jpg" />
+        <h1>Social Science</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="column">
+      <a href="{{ url_for('class9state_tamil') }}" style="text-decoration: none;">
+        <div class="card">
+          <div class="border"></div>
+          <img src="static/img/state/9th/tamil.jpg" />
+        <h1>Tamil</h1>
         </div>
       </a>
     </div>
@@ -49,4 +89,5 @@
     <script type="text/javascript" src="{{ url_for('static', filename='js/backtotopbutton.js') }}"></script>
 
     </body>
+
     </html>
