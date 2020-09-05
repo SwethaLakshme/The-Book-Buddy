@@ -1,6 +1,6 @@
 # The Book Buddy
 
-BookBuddy is a effective book management website that gives you access to your school textbooks anywhere.
+The Book Buddy is an effective book management website that gives you access to your school textbooks anywhere.
 
 ## About 'The Book Buddy'
 
