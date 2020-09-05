@@ -1,19 +1,27 @@
 from app import app
 from flask import Flask, render_template, url_for
 
-@app.route('/class9cbse_english')
-def class9cbse_english():
-    return render_template('cbse/9th/english.html')
+@app.route('/class9cbse_englishmoments')
+def class9cbse_englishmoments():
+    return render_template('cbse/9th/englishmoments.html')
 
-@app.route('/class9cbse_history ')
+@app.route('/class9cbse_englishbeehive')
+def class9cbse_englishbeehive():
+    return render_template('cbse/9th/englishbeehive.html')
+
+@app.route('/class9cbse_englishworkbook')
+def class9cbse_englishworkbook():
+    return render_template('cbse/9th/englishworkbook.html')
+
+@app.route('/class9cbse_history')
 def class9cbse_history ():
     return render_template('cbse/9th/history.html')
 
-@app.route('/class9cbse_civics ')
-def class9cbse_civics ():
-    return render_template('cbse/9th/civics.html')
+@app.route('/class9cbse_politicalscience')
+def class9cbse_politicalscience ():
+    return render_template('cbse/9th/politicalscience.html')
 
-@app.route('/class9cbse_geography ')
+@app.route('/class9cbse_geography')
 def class9cbse_geography ():
     return render_template('cbse/9th/geography.html')
 
